@@ -55,9 +55,13 @@ The ipynb files are made to run on Google Colab. The "emotion\_model\_weights.ke
 # Results and Conclusion:
 
 In this study, we explored the use of Convolutional Neural Networks (CNNs) for facial emotion recognition using real-world static images, recorded videos, and live camera feeds.
+
 Through the test dataset we achieved an accuracy of 67%. 
+
 While the results are promising, several factors must be addressed to enhance model performance: increasing image resolution to capture finer details, increasing the training set, reducing the feature imbalance, accounting for the non-universality of facial expressions through additional covariates, and integrating cultural variations in how emotions are expressed and perceived. 
+
 Despite the model’s inherent complexity and low explainability, SHAP analysis highlighted the importance of the ”communication triangle” or ”T-shape” (comprising the eyes and mouth) in emotion recognition, aligning with eye-tracking studies revealing that human observers rely on the same facial regions to interpret emotions. 
+
 Furthermore, deploying such models in real-world scenarios necessitates a rigorous focus
 on ethical standards, privacy protections, and regulatory compliance (e.g., EU AI Act).
 

@@ -33,6 +33,8 @@ The model ends with an Output Layer of 7 neurons (matching the 7 emotion classes
 
 Considering the whole model, the number of parameters is 3,002,887 (corresponding to 11.46 MB).
 
+More informations are found in the AI_Project.pdf report file.
+
 
 # How to run
 

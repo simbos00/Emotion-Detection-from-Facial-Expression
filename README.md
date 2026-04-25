@@ -23,7 +23,15 @@ In this repo you can find different python scripts and different files. Here's a
 
 # How to run
 
+To run the .py scripts we used a computer running Linux Fedora. You can use Windows too but the latest version of TensorFlow (2.20)
 
+does not support the training on the GPU on Windows, so the training time is significantly longer.
+
+
+
+The packages needed are: tensorflow kagglehub matplotlib opencv-python.
+
+To train it using an Nvidia GPU cudatoolkit=11.8 cudnn=8.9 and tensorflow\[and-cuda] are needed. (More info in the report).
 
 
 
